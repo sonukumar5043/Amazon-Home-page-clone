@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-log{
+    height: 55px;
+    width: 170px;
+}
+#log{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+.border:hover{
+    border: 2px solid white;
+cursor: pointer;
+}
+.navaddresh{
+    margin-left: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 3px;
+    margin-bottom: 2px;
+    font-size: 1em;
+    padding-top: 7px;
+}
+#navp{
+
+    font-family: serif;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    padding: 3px;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 4px; 
+    margin-left: 25px; 
+}
+.navsearch:hover{
+    border: 2px solid #f08804;
+}
+#select{
+    color: black;
+    width: 10%;
+    font-size: small;
+    cursor: pointer;
+    border: none;
+    background-color: whitesmoke;
+}
+#search{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-left:1px solid black ;
+}
+.icon2{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    height: 30px;
+    width: 8%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #f08804;
+    color: #0f1111;
+}
+.optionpannel.border:hover{
+    background-color: #f08804;
+    position: fixed;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+}
+
+option{
+    text-transform: capitalize;
+    color: black;
+}
+#lang{
+    display: flex;
+    align-items: center;
+    height: 65%;
+    width:87px ;
+}
+#langicon{
+    margin-right: 2px;
+}
+#langselect{
+    color: black;
+    height: 30px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: smaller;
+    font-weight:bold;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.sign{
+    width: 100px;
+}
+.message{
+    font-size: 10px;
+}
+.accountin{
+    font-size: smaller;
+    font-weight: 700px;
+}
+.return{
+    width: 50px;
+    padding: 3px;
+}
+.cart{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-weight: 700;
+}
+#cartlog{
+    font-size: x-large;
+}
+.pannel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    background-color: #222f3d;
+    color: white;
+}
+.optionpannel{
+    display: flex;
+    width: 5%;
+    align-items: center;
+}
+.display{
+    cursor: pointer;
+    height: 350px;
+     background-image: url(image/D103625178_DesktopTallHero_3000x1200_V3._CB558389732_.jpg);
+     background-size: cover;
+}
+.margin{
+    height:420px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ background-color: #e2e7e6;
+
+    
+}
+.text{
+    font-size: large;
+    font-weight: bolder;
+   margin-top: 1rem ;
+   padding: 5px;
+   color: black;
+}
+.image{
+    height: 75%;
+    margin: 10px;
+}
+#image1{
+    background-image: url("image/download.jpeg");
+    background-size: cover;
+}
+#image2{
+    background-image: url("image/clothes.jpeg");
+    background-size: cover;
+}
+#image3{
+    background-image: url("image/phone.jpeg");
+    background-size: cover;
+}
+#image4{
+    background-image: url("image/apple.jpg");
+    background-size: cover;
+}
+#image5{
+    background-image: url("image/jweleary.jpeg");
+    background-size: cover;
+}
+#image6{
+    background-image: url("image/toy.jpeg");
+    background-size: cover;
+}
+#image7{
+    background-image: url("image/teady.jpeg");
+    background-size: cover;
+}
+#image8{
+    background-image: url("image/carac.avif");
+    background-size: cover;
+}
+footer{
+    margin-top: 20px;
+    background-color: #222f3d;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+
+}
+#goup{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #414747;
+    cursor: pointer;
+    font-size: small;
+}
+.detalish{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+@media screen {
+    
+}
