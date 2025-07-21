@@ -25,6 +25,8 @@ This project replicates the user interface of the Amazon India home page, includ
 
 ---
 
+![image](https://github.com/sonukumar5043/Amazon-Home-page-clone/blob/5ee80348a5ca0c5d3ea0b3f806414536ed4ec614/Screenshot%202025-07-21%20220329.png?raw=true)
+
 
 
 
